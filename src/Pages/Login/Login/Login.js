@@ -27,7 +27,10 @@ const Login = () => {
     if (user) {
         navigate(from, { replace: true });
     }
-
+    let errorElement;
+    if (error) {
+        errorElement = <p className="text-danger">Error: {error?.message}</p>
+    }
     const handleSubmit = event => {
         event.preventDefault();
         const email = emailRef.current.value;
@@ -59,7 +62,7 @@ const Login = () => {
                     Login
                 </Button>
             </Form>
-            {/* {errorElement} */}
+             {errorElement}
             <p className="mt-2">New to Bikes labs? <Link to='/register' className="text-info pe-auto text-decoration-none " onClick={navigateRegister}>Please Register</Link></p>
             {/* <p className="mt-2">Forget Password? <button className="text-info pe-auto text-decoration-none btn btn-link" onClick={resetPassword}>Reset Password</button></p> */}
             <SocialLogin></SocialLogin>
