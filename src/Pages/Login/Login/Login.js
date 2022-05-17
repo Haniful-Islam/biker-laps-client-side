@@ -23,6 +23,8 @@ const Login = () => {
         error,
     ] = useSignInWithEmailAndPassword(auth);
 
+    const [sendPasswordResetEmail, sending] = useSendPasswordResetEmail(auth);
+
 
     if (user) {
         navigate(from, { replace: true });
@@ -41,6 +43,12 @@ const Login = () => {
 
     const navigateRegister = () => {
         navigate('/register')
+    }
+
+    const resetPassword = async () =>{
+        const email = emailRef.current.value;
+        await sendPasswordResetEmail(email);
+          alert('Sent email');
     }
 
 
@@ -64,7 +72,7 @@ const Login = () => {
             </Form>
              {errorElement}
             <p className="mt-2">New to Bikes labs? <Link to='/register' className="text-info pe-auto text-decoration-none " onClick={navigateRegister}>Please Register</Link></p>
-            {/* <p className="mt-2">Forget Password? <button className="text-info pe-auto text-decoration-none btn btn-link" onClick={resetPassword}>Reset Password</button></p> */}
+            <p className="mt-2">Forget Password? <button className="text-info pe-auto text-decoration-none btn btn-link" onClick={resetPassword}>Reset Password</button></p>
             <SocialLogin></SocialLogin>
         </div>
 

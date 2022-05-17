@@ -4,9 +4,10 @@ import { Link, useNavigate } from 'react-router-dom';
 import { useCreateUserWithEmailAndPassword } from 'react-firebase-hooks/auth';
 import auth from '../../../firebase.init';
 import SocialLogin from '../SocialLogin/SocialLogin';
+import { useState } from 'react';
 
 const Register = () => {
-    // const [agree, setAgree] = useState(false);
+    const [agree, setAgree] = useState(false);
     const [
         createUserWithEmailAndPassword,
         user,
@@ -47,10 +48,10 @@ const Register = () => {
                     <Form.Label>Password</Form.Label>
                     <Form.Control type="password" name="password" placeholder="Password" required />
                 </Form.Group>
-                {/* <input onClick={() => setAgree(!agree)} type="checkbox" name="terms" id="terms" />
-                <label className={agree ? 'ps-2 text-info' : "ps-2 text-danger"} htmlFor="terms">Accept espn sports Terms and Conditions</label> */}
+                <input onClick={() => setAgree(!agree)} type="checkbox" name="terms" id="terms" />
+                <label className={agree ? 'ps-2 text-info' : "ps-2 text-danger"} htmlFor="terms">Accept bikes labs Terms and Conditions</label>
                 <Button
-                    // disabled ={!agree}
+                    disabled ={!agree}
                     className="w-100 bg-info text-white mt-2" type="submit">
                     Register
                 </Button>
