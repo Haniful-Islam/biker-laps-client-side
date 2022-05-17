@@ -5,6 +5,7 @@ import { useSendPasswordResetEmail, useSignInWithEmailAndPassword } from 'react-
 
 import './Login.css';
 import auth from '../../../firebase.init';
+import SocialLogin from '../SocialLogin/SocialLogin';
 
 
 const Login = () => {
@@ -61,8 +62,9 @@ const Login = () => {
             {/* {errorElement} */}
             <p className="mt-2">New to Bikes labs? <Link to='/register' className="text-info pe-auto text-decoration-none " onClick={navigateRegister}>Please Register</Link></p>
             {/* <p className="mt-2">Forget Password? <button className="text-info pe-auto text-decoration-none btn btn-link" onClick={resetPassword}>Reset Password</button></p> */}
-
+            <SocialLogin></SocialLogin>
         </div>
+
     );
 };
 
