@@ -23,7 +23,7 @@
         "price": "6000",
         "description": "A motorcycle (or motorbike) is a vehicle used to transport people from one place to another",
         "quality": "564",
-        "Supplier": "",
+        "Supplier": "Benelli",
         "img": "https://i.ibb.co/dtNvHL4/Benelli-Leoncino.jpg"
     },
     {
@@ -41,7 +41,7 @@
         "price": "100",
         "description": "A motorcycle (or motorbike) is a vehicle used to transport people from one place to another",
         "quality": "654",
-        "Supplier": "",
+        "Supplier": "Bimota",
         "img": "https://i.ibb.co/42Wwdh3/bimota-tesi.jpg"
     },
     {
