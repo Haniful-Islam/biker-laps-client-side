@@ -10,9 +10,9 @@ const Bikes = () => {
             .then((response) => response.json())
             .then(data => setBikes(data));
     }, [])
-    return (
-        <div>
-            <h2 className="text-center text-info fw-bold my-4">Bike Inventory</h2>
+    return(
+        <div id="bikes">
+            <h2 className="text-center text-info fw-bold my-5">Bike Inventory</h2>
             <div className="bikes-container">
                 {
                     bikes.map(bike => <Bike
