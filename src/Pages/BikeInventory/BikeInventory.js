@@ -1,11 +1,22 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 
 const BikeInventory = () => {
     const {bikeId} = useParams();
+    const [bike, setBike] = useState({});
+    useEffect(() => {
+        const url = `http://localhost:5000/bike/${bikeId}`;
+
+        fetch(url)
+        .then(response => response.json())
+        .then(data => setBike(data));
+    },[])
 
     return (
         <div>
+            <h2>bike inventory:{bike.name}</h2>
+            <h2>bike inventory:{bike.quantity}</h2>
+            {/* <img src={img} alt=""/> */}
             <button className="w-25 mx-auto mt-5 text-white btn btn-info">Devliverd</button>
 
             {/* <div className='bg-img-container'>
