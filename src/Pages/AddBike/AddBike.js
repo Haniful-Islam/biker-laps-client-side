@@ -21,7 +21,7 @@ const AddBike = () => {
     }
     return (
         <div className="w-50 mx-auto border border-info p-5 mt-5 rounded-3">
-            <h3 className="text-center text-info mb-3">Please add a new bike</h3>
+            <h3 className="text-center text-info mb-3">Please add a new Item</h3>
             <form className="d-flex flex-column" onSubmit={handleSubmit(onSubmit)}>
                 <input className="mb-2 form-control" placeholder="name" {...register("name", { required: true, maxLength: 20 })} />
                 <textarea className="mb-2 form-control" placeholder="Description..." {...register("description")} />

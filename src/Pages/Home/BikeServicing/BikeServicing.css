@@ -1,0 +1,17 @@
+.bike-servicing{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    /* margin-top:30px; */
+    min-height: 70vh;
+    align-items:center;
+    justify-self: center;
+}
+.servicing-title{
+    margin-top:70px;
+}
+.img-part{
+    width:100%;
+}
+.img-part img{
+    width:80%;
+}

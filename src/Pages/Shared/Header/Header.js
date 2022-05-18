@@ -22,14 +22,16 @@ const Header = () => {
                         <Nav className="me-auto">
                             <Nav.Link href="home">Home</Nav.Link>
                             <Nav.Link href="home#bikes">BikeInventory</Nav.Link>
+                            <Nav.Link href="home#bikeservicing">BikeServicing</Nav.Link>
                             <Nav.Link href="home#LatestBike">LatestBike</Nav.Link>
                         </Nav>
                         <Nav>
                             <Nav.Link as={Link} to="blogs">Blogs</Nav.Link>
+                            <Nav.Link as={Link} to="all-items">All Items</Nav.Link>
                             {
                                 user && <>
-                                <Nav.Link as={Link} to="addbike">Add Bike</Nav.Link>
-                                <Nav.Link as={Link} to="manage">ManageBike</Nav.Link>
+                                <Nav.Link as={Link} to="addbike">Add Item</Nav.Link>
+                                <Nav.Link as={Link} to="manage">Manage Item</Nav.Link>
                                 </>
                             }
                             {
