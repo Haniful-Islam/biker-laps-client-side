@@ -8,6 +8,7 @@ import Home from './Pages/Home/Home/Home';
 import Login from './Pages/Login/Login/Login';
 import PrivateRoute from './Pages/Login/PrivateRoute/PrivateRoute';
 import Register from './Pages/Login/Register/Register';
+import ManageBikes from './Pages/ManageBikes/ManageBikes';
 import Footer from './Pages/Shared/Footer/Footer';
 import Header from './Pages/Shared/Header/Header';
 import Notfound from './Pages/Shared/Notfound/Notfound';
@@ -26,7 +27,12 @@ function App() {
         </Route>
         <Route path='/addbike' element={<PrivateRoute>
           <AddBike></AddBike>
-        </PrivateRoute>}></Route>
+        </PrivateRoute>}>
+        </Route>
+        <Route path='/manage' element={<PrivateRoute>
+          <ManageBikes></ManageBikes>
+        </PrivateRoute>}>
+        </Route>
         <Route path="/blogs" element={<Blogs></Blogs>}></Route>
         <Route path="/login" element={<Login></Login>}></Route>
         <Route path="/register" element={<Register></Register>}></Route>
