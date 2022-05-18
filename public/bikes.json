@@ -4,7 +4,7 @@
         "name": "Aprilia RS 660",
         "price": "3000",
         "description": "A motorcycle (or motorbike) is a vehicle used to transport people from one place to another",
-        "quality": "654",
+        "quantity": "654",
         "Supplier": "Appilia",
         "img": "https://i.ibb.co/w4GxWR9/aprilia.jpg"
     },
@@ -13,7 +13,7 @@
         "name": "Bajaj v15",
         "price": "1000",
         "description": "A motorcycle (or motorbike) is a vehicle used to transport people from one place to another",
-        "quality": "896",
+        "quantity": "896",
         "Supplier": "Bajaj",
         "img": "https://i.ibb.co/xDQs8W4/bajaj.jpg"
     },
@@ -22,7 +22,7 @@
         "name": "Benelli TNT 135",
         "price": "6000",
         "description": "A motorcycle (or motorbike) is a vehicle used to transport people from one place to another",
-        "quality": "564",
+        "quantity": "564",
         "Supplier": "Benelli",
         "img": "https://i.ibb.co/dtNvHL4/Benelli-Leoncino.jpg"
     },
@@ -31,7 +31,7 @@
         "name": "Bimota KB4",
         "price": "3000",
         "description": "A motorcycle (or motorbike) is a vehicle used to transport people from one place to another",
-        "quality": "654",
+        "quantity": "654",
         "Supplier": "Bimota",
         "img": "https://i.ibb.co/55bZYJY/bimota.jpg"
     },
@@ -40,7 +40,7 @@
         "name": "Bimota Tesi H2",
         "price": "100",
         "description": "A motorcycle (or motorbike) is a vehicle used to transport people from one place to another",
-        "quality": "654",
+        "quantity": "654",
         "Supplier": "Bimota",
         "img": "https://i.ibb.co/42Wwdh3/bimota-tesi.jpg"
     },
@@ -49,7 +49,7 @@
         "name": "Victory hammer",
         "price": "300",
         "description": "A motorcycle (or motorbike) is a vehicle used to transport people from one place to another",
-        "quality": "247",
+        "quantity": "247",
         "Supplier": "Victory",
         "img": "https://i.ibb.co/M68rBM3/Black-Victory.jpg"
     },
@@ -58,7 +58,7 @@
         "name": "Ducati Monstart",
         "price": "2500",
         "description": "A motorcycle (or motorbike) is a vehicle used to transport people from one place to another",
-        "quality": "654",
+        "quantity": "654",
         "Supplier": "Ducati",
         "img": "https://i.ibb.co/jWjx2rM/Ducati.jpg"
     },
@@ -67,7 +67,7 @@
         "name": "Kawasaki H2R ",
         "price": "3000",
         "description": "A motorcycle (or motorbike) is a vehicle used to transport people from one place to another",
-        "quality": "654",
+        "quantity": "654",
         "Supplier": "Kawasaki",
         "img": "https://i.ibb.co/cLTL4gP/Kawasaki.jpg"
     },
@@ -76,7 +76,7 @@
         "name": "KTM RC 390",
         "price": "2340",
         "description": "A motorcycle (or motorbike) is a vehicle used to transport people from one place to another",
-        "quality": "654",
+        "quantity": "47",
         "Supplier": "KTM",
         "img": "https://i.ibb.co/R4x2ptd/ktm.jpg"
     },
@@ -85,7 +85,7 @@
         "name": "Moto-Guzzi V9 Bobber",
         "price": "300",
         "description": "A motorcycle (or motorbike) is a vehicle used to transport people from one place to another",
-        "quality": "658",
+        "quantity": "987",
         "Supplier": "Moto-guzzi",
         "img": "https://i.ibb.co/7RWqHD3/moto-guzzi.jpg"
     },
@@ -94,7 +94,7 @@
         "name": "Mv-Agusta M3 800 Rosso",
         "price": "3600",
         "description": "A motorcycle (or motorbike) is a vehicle used to transport people from one place to another",
-        "quality": "741",
+        "quantity": "741",
         "Supplier": "Mv-Agusta",
         "img": "https://i.ibb.co/mTyt7yk/mv-agusta.jpg"
     },
@@ -103,7 +103,7 @@
         "name": "BS6 Royal-Rnfield",
         "price": "300",
         "description": "A motorcycle (or motorbike) is a vehicle used to transport people from one place to another",
-        "quality": "125",
+        "quantity": "125",
         "Supplier": "Royal-Rnfield",
         "img": "https://i.ibb.co/cvFmxQb/royal-enfield.jpg"
     },
@@ -112,7 +112,7 @@
         "name": "Sujuki GSX R150",
         "price": "4500",
         "description": "A motorcycle (or motorbike) is a vehicle used to transport people from one place to another",
-        "quality": "416",
+        "quantity": "416",
         "Supplier": "Sujuki",
         "img": "https://i.ibb.co/4J6y6SK/sujuki.jpg"
     },
@@ -121,7 +121,7 @@
         "name": "Triumph U19",
         "price": "4599",
         "description": "A motorcycle (or motorbike) is a vehicle used to transport people from one place to another",
-        "quality": "367",
+        "quantity": "367",
         "Supplier": "Triumph",
         "img": "https://i.ibb.co/j5VhxMs/Triumph.jpg"
     },
@@ -130,7 +130,7 @@
         "name": "Yamaha FZ 25",
         "price": "5554",
         "description": "A motorcycle (or motorbike) is a vehicle used to transport people from one place to another",
-        "quality": "125",
+        "quantity": "125",
         "Supplier": "Yamaha",
         "img": "https://i.ibb.co/1z39DpR/yamaha.jpg"
     }

@@ -22,7 +22,7 @@ const Header = () => {
                         <Nav className="me-auto">
                             <Nav.Link href="home">Home</Nav.Link>
                             <Nav.Link href="home#bikes">BikeInventory</Nav.Link>
-                            {/* <Nav.Link href="home#experts"></Nav.Link> */}
+                            <Nav.Link href="home#LatestBike">LatestBike</Nav.Link>
                         </Nav>
                         <Nav>
                             <Nav.Link as={Link} to="blogs">Blogs</Nav.Link>
