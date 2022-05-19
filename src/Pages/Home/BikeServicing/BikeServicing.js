@@ -4,7 +4,7 @@ import './BikeServicing.css';
 
 const BikeServicing = () => {
     return (
-        <div>
+           <div id="bikeservicing">
             <h2 className="text-center text-info servicing-title">Bike Servicing</h2>
             <div className="bike-servicing container">
                 <div className="img-part">

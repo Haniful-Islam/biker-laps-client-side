@@ -47,7 +47,7 @@ const ManageBikes = () => {
                                                     <td>{bike.name}</td>
                                                     <td>${bike.price}</td>
                                                     <td>{bike.quantity}</td>
-                                                    <td>{bike.supplier}</td>
+                                                    <td>{bike.Supplier}</td>
                                                     <td><img className='' style={{ width: '100px' }} src={bike.img} alt="" /></td>
                                                     <td><button className='btn btn-info text-danger' onClick={() => handleDelete(bike._id)}>Delete</button></td>
                                                 </tr>

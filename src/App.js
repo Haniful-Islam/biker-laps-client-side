@@ -12,6 +12,7 @@ import Login from './Pages/Login/Login/Login';
 import PrivateRoute from './Pages/Login/PrivateRoute/PrivateRoute';
 import Register from './Pages/Login/Register/Register';
 import ManageBikes from './Pages/ManageBikes/ManageBikes';
+import MyItems from './Pages/MyItems/MyItems';
 import Footer from './Pages/Shared/Footer/Footer';
 import Header from './Pages/Shared/Header/Header';
 import Notfound from './Pages/Shared/Notfound/Notfound';
@@ -39,7 +40,7 @@ function App() {
         <Route path="/bikeservicing" element = {<BikeServicing></BikeServicing>}></Route>
         <Route path="/blogs" element={<Blogs></Blogs>}></Route>
         <Route path="/all-items" element={<AllItem></AllItem>}></Route>
-
+        <Route path="/myitems" element ={<MyItems></MyItems>}></Route>
         <Route path="/login" element={<Login></Login>}></Route>
         <Route path="/register" element={<Register></Register>}></Route>
         <Route path="*" element={<Notfound></Notfound>}></Route>
