@@ -91,9 +91,9 @@ const BikeInventory = () => {
                                 <h1 className='text-center text-white mb-4'>{bike.name}</h1>
                                 <p className='text-white text-center mb-4'>{bike.description}</p>
                                 <div className='d-md-flex  justify-content-md-around text-center my-4'>
-                                    <p className='card-text'>Price: <strong className='text-danger'>${bike.price}</strong></p>
-                                    <p className='card-text'>Quantity: <strong className='text-danger'>{bike.quantity}</strong></p>
-                                    <p className='card-text'>Supplier: <strong className='text-danger'>{bike.Supplier}</strong></p>
+                                    <p className='card-text'>Price: <strong className='text-info'>${bike.price}</strong></p>
+                                    <p className='card-text'>Quantity: <strong className='text-info'>{bike.quantity}</strong></p>
+                                    <p className='card-text'>Supplier: <strong className='text-info'>{bike.Supplier}</strong></p>
                                 </div>
                                 <div className='text-center mb-3'>
                                     <button onClick={handleCarDeliveredQuantity}  className='btn btn-info w-100'>Delivered</button>
