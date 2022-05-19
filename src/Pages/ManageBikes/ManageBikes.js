@@ -8,7 +8,7 @@ const ManageBikes = () => {
     const handleDelete = id => {
         const proceed = window.confirm('Are you sure?')
         if (proceed) {
-            const url = `http://localhost:5000/bike/${id}`;
+            const url = `https://guarded-tundra-28077.herokuapp.com/bike/${id}`;
             fetch(url, {
                 method: 'DELETE',
             })

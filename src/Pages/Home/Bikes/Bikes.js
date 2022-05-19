@@ -7,7 +7,7 @@ const Bikes = () => {
     const [bikes, setBikes] = useState([]);
 
     useEffect(() => {
-        fetch('http://localhost:5000/bike')
+        fetch('https://guarded-tundra-28077.herokuapp.com/bike')
             .then((response) => response.json())
             .then(data => setBikes(data));
     }, [])

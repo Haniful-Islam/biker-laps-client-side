@@ -11,7 +11,7 @@ const AddBike = () => {
     const email = user.email;
     const onSubmit = data => {
         console.log(data);
-        const url = `http://localhost:5000/bike`;
+        const url = `https://guarded-tundra-28077.herokuapp.com/bike`;
         fetch(url, {
             method: 'POST',
             headers: {
@@ -30,12 +30,12 @@ const AddBike = () => {
             <form className="d-flex flex-column" onSubmit={handleSubmit(onSubmit)}>
 
                 <input className="mb-2 form-control" value={userName} placeholder="Your name..." {...register("userName")} />
-                <input className="mb-2 form-control" value={user.email} placeholder="Email" {...register("email")} />
+                <input className="mb-2 form-control" value={email} placeholder="Email" {...register("email")} />
                 <input className="mb-2 form-control" placeholder="product name" {...register("name", { required: true, maxLength: 20 })} />
                 <textarea className="mb-2 form-control" placeholder="Description..." {...register("description")} />
                 <input className="mb-2 form-control" placeholder="Price" type="number" {...register("price")} />
                 <input className="mb-2 form-control" placeholder="Quantity" type="number" {...register("quantity")} />
-                <input className="mb-2 form-control" placeholder="Supplier" type="text" {...register("supplier")} />
+                <input className="mb-2 form-control" placeholder="Supplier" type="text" {...register("Supplier")} />
                 <input className="mb-2 form-control" placeholder="Photo URL" type="text" {...register("img")} />
                 <input type="submit" value="Add Item" className="btn btn-info text-white" />
             </form>

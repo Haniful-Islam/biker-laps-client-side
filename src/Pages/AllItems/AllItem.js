@@ -8,7 +8,7 @@ const AllItem = () => {
     const [bikes, setBikes] = useState([]);
 
     useEffect(() => {
-        const url = 'http://localhost:5000/bike';
+        const url = 'https://guarded-tundra-28077.herokuapp.com/bike';
         fetch(url)
             .then((response) => response.json())
             .then(data => setBikes(data));
